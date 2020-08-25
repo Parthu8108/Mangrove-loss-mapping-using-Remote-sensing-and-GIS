@@ -1,0 +1,5 @@
+ rot = Image.open("rotunda.jpg")
+        rotunda = ImageTk.PhotoImage(rot)
+        label2 = Label(self, image=rotunda)
+        label2.image = rotunda
+        label2.place(x=40, y=160)     
